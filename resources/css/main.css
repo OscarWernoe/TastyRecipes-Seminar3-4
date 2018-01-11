@@ -1,0 +1,137 @@
+header {
+    padding: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.recipe-list-unordered li {
+    list-style: disc inside;
+    float: left;
+    width: 50%;
+}
+
+.recipe-list-ordered li {
+    padding-bottom: 0.5em;
+    list-style: decimal inside;
+    float: left;
+    width: 100%;
+}
+
+footer {
+    padding: 50px;
+}
+
+.footer {
+    background-color: darkcyan;
+    color: white;
+    margin-top: 1em;
+}
+
+.recipes {
+    padding: 0;
+}
+
+.recipe-box {
+    height: 20em;
+    -moz-box-shadow: inset 0 0 100px grey;
+    -webkit-box-shadow: inset 0 0 100px grey;
+    box-shadow: inset 0 0 100px grey;
+    transition: box-shadow 0.5s;
+}
+
+.recipe-box:hover {
+    -moz-box-shadow: inset 0 0 100px black;
+    -webkit-box-shadow: inset 0 0 100px black;
+    box-shadow: inset 0 0 100px black;
+}
+
+.recipe1-image {
+    background: url("/resources/images/recipe1-image.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.recipe2-image {
+    background: url("/resources/images/recipe2-image.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.recipe-label {
+    font-size: 1.5em;
+}
+
+.background {
+    background-color: whitesmoke;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.calendar-top-row {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.calendar-row {
+    max-width: 1200px;
+    margin: auto auto;
+}
+
+.calendar-row .col-md-1 {
+    height: 10em;
+    border: 1px solid lightgray;
+    width: 14.28571429%;
+}
+
+.calendar-col {
+    height: 2em;
+    background-color: lightgray;
+    width: 14.28571429%;
+}
+
+.calendar-entry {
+    transition: background-color 0.4s;
+}
+
+.calendar-entry:hover {
+    background-color: lightgray;
+}
+
+.calendar-inactive {
+    background-color: lightgray;
+}
+
+.calendar-recipe {
+    transition: box-shadow 0.4s;
+}
+
+.calendar-recipe:hover {
+    -moz-box-shadow: inset 0 0 50px grey;
+    -webkit-box-shadow: inset 0 0 50px grey;
+    box-shadow: inset 0 0 50px grey;
+}
+
+@media (max-width: 992px) {
+    .recipe-list-unordered li {
+        width: 100%;
+    }
+
+    .container-fluid#calendar {
+        padding: 0;
+    }
+
+    .calendar-row {
+        margin: 0;
+    }
+
+    .calendar-row .col-md-1 {
+        height: 6em;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        display: none;
+    }
+}

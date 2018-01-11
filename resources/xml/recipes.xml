@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cookbook version="1">
+    <recipe>
+        <title>Meatballs</title>
+        <ingredient>
+            <li>1/3 cup plain bread crumbs</li>
+            <li>1/2 cup milk</li>
+            <li>2 tablespoons olive oil</li>
+            <li>1 onion, diced</li>
+            <li>1 pound ground beef</li>
+            <li>1 pound ground pork</li>
+            <li>2 eggs</li>
+            <li>1/4 bunch fresh parsley, chopped</li>
+            <li>3 cloves garlic, crushed</li>
+            <li>2 teaspoons salt</li>
+            <li>1 teaspoon ground black pepper</li>
+            <li>1/2 teaspoon red pepper flakes</li>
+            <li>1 teaspoon dried Italian herb seasoning</li>
+            <li>2 tablespoons grated Parmesan cheese</li>
+        </ingredient>
+        <recipetext>
+            <li>Cover a baking sheet with foil and spray lightly with cooking spray.</li>
+            <li>Soak bread crumbs in milk in a small bowl for 20 minutes.</li>
+            <li>Heat olive oil in a skillet over medium heat. Cook and stir onions in hot oil until translucent,
+                about 20 minutes.
+            </li>
+            <li>Mix beef and pork together in a large bowl. Stir onions, bread crumb mixture, eggs, parsley, garlic,
+                salt, black pepper, red pepper flakes, Italian herb seasoning, and Parmesan cheese into meat mixture
+                with a rubber spatula until combined. Cover and refrigerate for about one hour.
+            </li>
+            <li>Preheat an oven to 425 degrees F (220 degrees C).</li>
+            <li>Using wet hands, form meat mixture into balls about 1 1/2 inches in diameter. Arrange onto prepared
+                baking sheet.
+            </li>
+            <li>Bake in the preheated oven until browned and cooked through, 15 to 20 minutes.</li>
+        </recipetext>
+        <imagepath>/resources/images/recipe1-image.jpg</imagepath>
+    </recipe>
+
+    <recipe>
+        <title>Pancakes</title>
+        <ingredient>
+            <li>1 1/2 cups all-purpose flour</li>
+            <li>3 1/2 teaspoons baking powder</li>
+            <li>1 teaspoon salt</li>
+            <li>1 tablespoon white sugar</li>
+            <li>1 1/4 cups milk</li>
+            <li>1 egg</li>
+            <li>3 tablespoons butter, melted</li>
+        </ingredient>
+        <recipetext>
+            <li>In a large bowl, sift together the flour, baking powder, salt and sugar.
+                Make a well in the center and pour in the milk, egg and melted butter; mix until smooth.</li>
+            <li>Heat a lightly oiled griddle or frying pan over medium high heat.
+                Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.
+                Brown on both sides and serve hot.</li>
+        </recipetext>
+        <imagepath>/resources/images/recipe2-image.jpg</imagepath>
+    </recipe>
+</cookbook>
