@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: oawer
- * Date: 2017-12-10
- * Time: 18:46
- */
 
 namespace TastyRecipes\View;
 

@@ -28,7 +28,7 @@ class PostComment extends AbstractRequestHandler {
         }
 
         if($contr->isSignedIn()) {
-            $result = $contr->postComment($this->recipe_number, $contr->getUsername(), $this->comment);
+            $result = $contr->postComment($this->recipe_number + 1, $contr->getUsername(), $this->comment);
             $this->addVariable('data', $result);
         } else {
             $this->addVariable('data', false);
