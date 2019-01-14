@@ -45,7 +45,7 @@ class Recipe extends CI_Controller {
   public function post_comment() {
     $username = $this->session->userdata('username');
     $recipe_number = $this->input->post('recipe_number');
-    $comment = $this->input->post('comment');
+    $comment = htmlspecialchars($this->input->post('comment'));
 
     $this->comment_model->add_comment($recipe_number + 1, $username, $comment);
     echo json_encode(true);

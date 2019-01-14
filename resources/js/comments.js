@@ -1,44 +1,7 @@
 $(document).ready(function() {
 
-  $("#login-btn").click(function(e) {
-    e.preventDefault();
-
-    console.log('click');
-
-    $.ajax({
-      type: "POST",
-      cache: false,
-      url: "http://localhost:8888/index.php/pages/sign_in",
-      data: {
-        'username' : $('[name="username"]').val(),
-        'password' : $('[name="password"]').val(),
-      },
-      dataType: 'json',
-      success: function() {
-        window.location.replace("http://localhost:8888/index.php/home");
-      }
-    })
-  })
-
-  $("#logout-btn").click(function(e) {
-    e.preventDefault();
-
-    console.log('click');
-
-    $.ajax({
-      type: "POST",
-      cache: false,
-      url: "http://localhost:8888/index.php/pages/sign_out",
-      success: function() {
-        location.reload();
-      }
-    })
-  })
-
   $("#submit-comment").click(function(e) {
     e.preventDefault();
-
-    console.log('click');
 
     $.ajax({
       type: "POST",
@@ -58,8 +21,6 @@ $(document).ready(function() {
 
   $(document).on("click", "#delete-comment", function(e) {
     e.preventDefault();
-
-    console.log('click');
 
     var commentId = $(this).attr('value');
 
@@ -86,10 +47,10 @@ function getComments(recipe) {
     url: "http://localhost:8888/index.php/recipe/get_comments/" + recipe,
     data: null,
     dataType: 'json',
-    success: function(res) {
-      comments = res.comments;
+    success: function(response) {
+      comments = response.comments;
       for(i = 0; i < comments.length; i++) {
-        if(res.logged_in && (res.username == comments[i].username)) {
+        if((response.username == comments[i].username) && response.logged_in) {
           $("#comment").append(
             '<div class="media">' +
             '<div class="media-body">' +

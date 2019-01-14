@@ -15,7 +15,7 @@
       <span class="help-block"><?php echo $this->session->flashdata('password_error'); ?></span>
     </div>
     <div class="form-group">
-      <input id="login-btn" type="submit" class="btn btn-primary" value="Submit">
+      <input id="sign-in" type="submit" class="btn btn-primary" value="Submit">
     </div>
   </form>
 </div>

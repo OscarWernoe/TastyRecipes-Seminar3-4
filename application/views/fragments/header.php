@@ -8,7 +8,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="<?=base_url();?>../resources/css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="<?=base_url();?>../resources/js/JavaScript.js"></script>
+    <script src="<?=base_url();?>../resources/js/user.js"></script>
+    <script src="<?=base_url();?>../resources/js/comments.js"></script>
 	</head>
 	<body>
 		<header>
@@ -24,7 +25,7 @@
             <li><a href="<?=base_url();?>sign_in">Sign in</a></li>
           <?php endif; ?>
           <?php if($this->session->userdata('logged_in')): ?>
-          <li><a href="" id="logout-btn">Sign out</a></li>
+          <li><a href="" id="sign-out">Sign out</a></li>
           <?php endif; ?>
         </ul>
 			</div>
