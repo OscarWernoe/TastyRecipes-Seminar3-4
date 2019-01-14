@@ -34,7 +34,7 @@
             </li>
             <li>Bake in the preheated oven until browned and cooked through, 15 to 20 minutes.</li>
         </recipetext>
-        <imagepath>/resources/images/recipe1-image.jpg</imagepath>
+        <imagepath>../resources/images/recipe1-image.jpg</imagepath>
     </recipe>
 
     <recipe>
@@ -55,6 +55,6 @@
                 Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.
                 Brown on both sides and serve hot.</li>
         </recipetext>
-        <imagepath>/resources/images/recipe2-image.jpg</imagepath>
+        <imagepath>../resources/images/recipe2-image.jpg</imagepath>
     </recipe>
 </cookbook>
