@@ -82,6 +82,6 @@ class Pages extends CI_Controller {
   public function sign_out() {
     $this->session->unset_userdata('username');
     $this->session->unset_userdata('logged_in');
-    redirect(base_url('home'));
+    echo json_encode(true);
   }
 }

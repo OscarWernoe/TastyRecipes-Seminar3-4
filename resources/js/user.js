@@ -26,7 +26,7 @@ $(document).ready(function() {
       cache: false,
       url: "http://localhost:8888/index.php/pages/sign_out",
       success: function() {
-        location.reload();
+        window.location.replace("http://localhost:8888/index.php/home");
       }
     })
   }) 
